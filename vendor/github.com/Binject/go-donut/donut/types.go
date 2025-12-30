@@ -348,9 +348,6 @@ var api_imports = []API_IMPORT{
 	API_IMPORT{Module: NTDLL_DLL, Name: "RtlGetCompressionWorkSpaceSize"},
 	API_IMPORT{Module: NTDLL_DLL, Name: "RtlDecompressBuffer"},
 	API_IMPORT{Module: NTDLL_DLL, Name: "NtContinue"},
-
-	API_IMPORT{Module: KERNEL32_DLL, Name: "AddVectoredExceptionHandler"}, // 50
-	API_IMPORT{Module: KERNEL32_DLL, Name: "RemoveVectoredExceptionHandler"},
 }
 
 // required to load .NET assemblies
